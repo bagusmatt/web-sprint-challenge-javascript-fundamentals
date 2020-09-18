@@ -30,11 +30,11 @@ CuboidMaker.prototype.volume = function () {
 */
 
 CuboidMaker.prototype.surfaceArea = function () {
-  console.log(
+  return (
     2 *
-      (this.length * this.width +
-        this.length * this.height +
-        this.width * this.height)
+    (this.length * this.width +
+      this.length * this.height +
+      this.width * this.height)
   );
 };
 
